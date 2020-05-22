@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>connected educational consulting</title>
+    <link>/</link>
+    <description>Recent content on connected educational consulting</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>§2 Bacon §2.1 Bacon1 Buffalo cupim kielbasa spare ribs frankfurter. Ribeye pork burgdoggen tenderloin, tail strip steak bacon ham hock pork loin cupim. Bresaola biltong salami, cow ham hock doner pork chop bacon sausage short ribs. Picanha shank sausage turducken. Ham hock t-bone cupim, tri-tip biltong venison flank beef. Cupim bresaola kevin, ham hock beef hamburger tri-tip biltong sirloin filet mignon.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/contact/</guid>
+      <description> ✉️ matt@ce-consulting.co 📞 💬 509-720-7125   </description>
+    </item>
+    
+    <item>
+      <title>Courses</title>
+      <link>/courses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/</guid>
+      <description>§2 Bacon §2.1 Bacon1 Buffalo cupim kielbasa spare ribs frankfurter. Ribeye pork burgdoggen tenderloin, tail strip steak bacon ham hock pork loin cupim. Bresaola biltong salami, cow ham hock doner pork chop bacon sausage short ribs. Picanha shank sausage turducken. Ham hock t-bone cupim, tri-tip biltong venison flank beef. Cupim bresaola kevin, ham hock beef hamburger tri-tip biltong sirloin filet mignon.</description>
+    </item>
+    
+    <item>
+      <title>Services</title>
+      <link>/services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/services/</guid>
+      <description>* { box-sizing: border-box; } .boxLeft { float: left; width: 25%; padding: 25px; background-color: #F39200; color: white; font-weight: bold; height: 200px; } .boxRight { float: left; width: 60%; padding: 25px; background-color: #F2FBFF; color: #4593B3; font-weight: bold; height: 200px; } .costBox { float: left; width: 15%; padding: 25px; background-color: #4593B3; color: white; font-weight: bold; height: 200px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; }  Service
+  Description</description>
+    </item>
+    
+  </channel>
+</rss>

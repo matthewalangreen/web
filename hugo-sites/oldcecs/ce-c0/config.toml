@@ -1,0 +1,130 @@
+################################# Default configuration ###################
+# provide your domain here
+baseURL = "https://ce-consulting.co"
+# theme
+theme = "dot"
+# site title
+title = "ce-consulting.co"
+
+# desable language
+disableLanguages = []
+
+# unsafe html
+[markup.goldmark.renderer]
+unsafe= true
+
+################################# navigation ################################
+[[menu.main]]
+name = "Services"
+url = "faq"
+weight = 1
+
+[[menu.main]]
+name = "Contact"
+url = "contact"
+weight = 2
+
+# [[menu.main]]
+# name = "Our Services"
+# url = "our-services"
+# weight = 2
+
+
+
+
+
+  # [[menu.main]]
+  # parent = "services"
+  # name = "On-site Training"
+  # url = "on-site-pd"
+  # weight = 1
+  #
+  # [[menu.main]]
+  # parent = "services"
+  # name = "Installation"
+  # url = "installation"
+  # weight = 2
+  #
+  # [[menu.main]]
+  # parent = "services"
+  # name = "Billing and Pricing"
+  # url = "billing-pricing"
+  # weight = 3
+
+  # [[menu.main]]
+  # parent = "services"
+  # name = "Features"
+  # url = "features"
+  # weight = 3
+
+
+
+
+############################# Default Parameters ##########################
+[params]
+# logo is for all page
+logo = "images/logo.svg"
+# logo white is for homepage logo, you can use colorful logo too...
+logo_white = "images/logoWhite.svg"
+# when logo is empty, it will shown your site title
+
+# customize color
+ # primary_color = "#02007e"
+# primary_color = "#1696b7"
+primary_color = "#F39200"
+body_color = "#f9f9f9"
+text_color = "#636363"
+text_color_dark = "#242738"
+white_color = "#ffffff"
+light_color = "#f8f9fa"
+
+# font family
+font_family = "lato" # Choose font family from : https://fonts.google.com/
+
+# contact form action
+contact_form_action = "https://formspree.io/moqngnko" # contact form works with : https://formspree.io
+
+
+############################## social links ##############################
+[[params.social]]
+icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
+link = "#"
+
+[[params.social]]
+icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
+link = "#"
+
+# [[params.social]]
+# icon = "ti-github" # themify icon pack : https://themify.me/themify-icons
+# link = "#"
+#
+# [[params.social]]
+# icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
+# link = "#"
+
+################################ English Language ######################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+weight = 1
+home = "Home"
+copyright = "Theme © [GetHugoThemes](https://gethugothemes.com/) 2020"
+
+# banner
+[Languages.en.params.banner]
+title = "Connected Educational Consulting"
+subtitle = "Thinking & learning together longer text more random stuff about food and things maybe a place to put more information about stuff"
+# bg_image = "images/banner.jpg"
+bg_image = "images/bulb.svg"
+placeholder = "Have a question? Just ask here or enter terms"
+
+# call to action
+[Languages.en.params.cta]
+enable = false
+title = "Ready to connect?"
+content = "Tell us about you, and let us know how we can help"
+# call to action button
+[Languages.en.params.cta.button]
+enable = false
+label = "contact us"
+link = "contact"

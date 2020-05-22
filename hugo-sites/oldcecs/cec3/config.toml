@@ -1,0 +1,73 @@
+theme = "hugo-assembly"
+baseURL = "https://example.co"
+languageCode = "en-US"
+title = "ce-consulting.co"
+
+# Metadata
+[params]
+  author = "ce-consulting.co"
+  description = "Connected Educational Consulting"
+
+# banner section (from here on is for assembly theme)
+[params.banner]
+  title = ""
+  byline = ""
+
+[params.actions] # CTAs
+  enable = true
+  register = "CTA Now!"
+
+# Navigation section
+[params.nav]
+  home = "Home"
+  services = "Services"
+  welcome = "Contact Us"
+  #contact = "Contact Us"
+
+# Services section
+[params.services]
+  enable = true
+  title = "Services"
+  subtitle = "See how we can help your teachers reach their goals"
+
+  [[params.services.item]]
+    weight = "A"
+    description = "CEC's Consultants will adapt and deliver on-site Professional Development for K-20 teaching staff in: Design Thinking, Project Based Learning, Creative, Alternative, & Performance assessment strategies, student project deisgn & management, hybrid (in-person & online) curriculum design and more!"
+    button_item_info = "Safer"
+
+  [[params.services.item]]
+    weight = "B"
+    description = "Invite CEC's Consultants into your school to help observe, co-think, co-teach, co-plan, co-develop support for teaching staff. Can be used at the discretion of the school administration."
+    button_item_info = "Faster"
+
+  [[params.services.item]]
+    weight = "C"
+    description = "Register for Online Professional Development courses (see current [schedule](http://www.apple.com)) or sign up for online or in-person coaching sessions on your schedule."
+    button_item_info = "Smarter"
+
+# Welcome section
+[params.welcome]
+  enable = true
+  title = "Let's Think Together 💡"
+  subtitle = "Connected Educational Consulting "
+  description = "Connected Educational Consulting is an organization designed to support working teachers, administrators, school districts, and training organizations improve their communication and effectiveness. We do this by thinking together. Yes, that&apos;s really it. We&apos;re committed co-thinkers, convinced that time together, thinking and working on instruction benefits everyone. We offer [experience](http://matthewalangreen.com), passion, and conviction that all students can learn. You offer the same. Let&apos;s find out what we can learn together!"
+  button_text = "Call Now"
+
+# Contact section
+# [params.contact]
+#   enable = true
+#    title = "Get In Touch"
+#    message = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+#    name_placeholder = "Your name"
+#    email_placeholder = "Your email"
+#    email_disclaimer = "We'll never share your email with anyone else."
+#    message_placeholder = "Please enter a message."
+#    button_text = "Submit"
+
+# Footer section
+[params.footer]
+  enable = true
+  copy = "2020 &copy; Connected Educational Consulting | All rights reserved"
+  twitter = ""
+  facebook = ""
+  instagram = ""
